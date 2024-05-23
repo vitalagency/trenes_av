@@ -1,8 +1,10 @@
 
 #ifndef VAGONPASAJEROS_H
 #define VAGONPASAJEROS_H
-
+#include <string>
 #include "Vagon.h"
+using namespace std;
+
 
 // Clase Vagon Pasajeros
 
