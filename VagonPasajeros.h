@@ -26,10 +26,10 @@ public:
 class Reserva: public Vagon{
     private:
     auto nombreReserva;
-    float precioReserva;
 
     public:
-    Reserva(auto nombreReserva,float precioReserva);
+    int precioTurista;
+    int precioLujo;
 
     virtual:
     int numAsientos;
@@ -46,7 +46,7 @@ class PrecioTurista: public Vagon{
     string nombre; 
 
     public:
-    float precioTurista;
+    int precioTurista;
 
 }
 
@@ -57,7 +57,7 @@ class PrecioLujo: public Vagon{
     string nombre;
 
     public:
-    float precioLujo;
+    int precioLujo;
 
 }
 
