@@ -4,6 +4,8 @@
 
 #include "Vagon.h"
 
+// Clase Vagon Pasajeros
+
 class VagonPasajeros: public Vagon{
 public:
     enum Clase {TURISTA, LUJO};
