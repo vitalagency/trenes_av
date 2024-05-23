@@ -3,6 +3,7 @@
 
 #include "Vagon.h"
 
+// Vagon Carga
 class VagonCarga: public Vagon{
 protected:
     float pesoEspecifico; 
@@ -10,6 +11,7 @@ public:
     VagonCarga(float pe);
 };
 
+// Vagon Cisterna
 class VagonCisterna: public VagonCarga{
 private: 
     float litros;
@@ -18,6 +20,8 @@ public:
     float calcularPeso();
 };
 
+
+// Vagon Plataforma
 class VagonPlataforma: public VagonCarga{
 private:
     float metrosCubicos;
