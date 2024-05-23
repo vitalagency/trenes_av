@@ -37,7 +37,7 @@ class Reserva: public Vagon{
 
 // Clase Precios
 
-// Precio Turista
+// Precio Turista  $3.00 
 class PrecioTurista: public Vagon{
     private:
     string nombre; 
@@ -47,7 +47,7 @@ class PrecioTurista: public Vagon{
 
 }
 
-// Precio Lujo 
+// Precio Lujo  $9.00 
 
 class PrecioLujo: public Vagon{
     private: 

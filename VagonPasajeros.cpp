@@ -28,3 +28,4 @@ int VagonPasajeros::PrecioLujo(){
 
     return PrecioLujo
 }
+ 
