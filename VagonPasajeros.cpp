@@ -8,6 +8,6 @@ float VagonPasajeros::calcularPeso(){
     return peso;
 }
 
-int VagonPasajeros::precio(){
-    
+int Reserva::precio(){
+
 }

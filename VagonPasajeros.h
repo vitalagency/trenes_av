@@ -16,4 +16,10 @@ public:
     int precio;
 };
 
+class Reserva: public Vagon{
+    public:
+    int precio;
+
+};
+
 #endif
