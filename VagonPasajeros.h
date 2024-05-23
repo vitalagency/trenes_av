@@ -13,6 +13,7 @@ private:
 public:
     VagonPasajeros(int pas, Clase cl);
     float calcularPeso();
+    int precio;
 };
 
 #endif

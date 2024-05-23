@@ -7,3 +7,7 @@ float VagonPasajeros::calcularPeso(){
     peso = pasajeros * 70.0;
     return peso;
 }
+
+int VagonPasajeros::precio(){
+    
+}
