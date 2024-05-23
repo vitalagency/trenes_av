@@ -21,22 +21,6 @@ public:
 };
 
 
-// Clase Reserva
-
-class Reserva: public Vagon{
-    private:
-    auto nombreReserva;
-
-    public:
-    int precioTurista;
-    int precioLujo;
-
-    virtual:
-    int numAsientos;
-    
-
-};
-
 
 // Clase Precios
 
@@ -60,5 +44,22 @@ class PrecioLujo: public Vagon{
     int precioLujo;
 
 }
+
+// Clase Reserva
+
+class Reserva: public Vagon{
+    private:
+    auto nombreReserva;
+
+    public:
+    int precioTurista;
+    int precioLujo;
+
+    virtual:
+    int numAsientos;
+    
+
+};
+
 
 #endif
