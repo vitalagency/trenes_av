@@ -1,3 +1,4 @@
+
 #include "VagonPasajeros.h"
 
 VagonPasajeros::VagonPasajeros(int pas, Clase cl): Vagon(), pasajeros(pas), clase(cl){}
