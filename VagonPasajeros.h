@@ -16,15 +16,9 @@ public:
     int precio;
 };
 // Clase Reserva
-class Reserva: public Vagon{
-    private:
-    auto nombreReserva;
-
+class Reserva: public VagonPasajeros{
     public:
     int precio;
-
-    virtual:
-    int numAsientos;
     
 
 };
