@@ -11,3 +11,20 @@ float VagonPasajeros::calcularPeso(){
 int Reserva::precio(){
 
 }
+
+// Precio Turista
+
+int VagonPasajeros::PrecioTursita(){
+    cout << "Precio de Turista" << precioTurista << endl ;
+    return PrecioTursita
+}
+
+
+
+// Precio Lujo
+int VagonPasajeros::PrecioLujo(){
+    cout << "Precio de Lujo" << precioLujo << endl ;
+
+
+    return PrecioLujo
+}

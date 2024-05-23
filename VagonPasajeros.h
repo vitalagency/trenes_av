@@ -34,4 +34,28 @@ class Reserva: public Vagon{
 
 };
 
+
+// Clase Precios
+
+// Precio Turista
+class PrecioTurista: public Vagon{
+    private:
+    string nombre; 
+
+    public:
+    int precioTurista;
+
+}
+
+// Precio Lujo 
+
+class PrecioLujo: public Vagon{
+    private: 
+    string nombre;
+
+    public:
+    int precioLujo;
+
+}
+
 #endif
