@@ -15,7 +15,7 @@ public:
     float calcularPeso();
     int precio;
 };
-
+// Clase Reserva
 class Reserva: public Vagon{
     public:
     int precio;
