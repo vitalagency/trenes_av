@@ -1,5 +1,3 @@
-# trenes_av
-demo demo demo demo demo demo demo demo 
+# Trenes AV
 
-first commit
-hola 
+Sistema de gestión de trenes con reserva para cliente.
